@@ -7,11 +7,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("testApi")
 
 public class MainController {
-	
+	//created by Ankita
 	public Question getQuestion() {
 		
 		Question question=new Question();
-		question.setQuestion("Is java platform Independent");
+		question.setQuestion("Is java platform Independent??");
 		question.setOption1("YES");
 		question.setOption2("No");
 		question.setCorrectAnswer("1");
