@@ -19,5 +19,13 @@ public class MainController {
 		return question;
 		
 	}
+	
+	public Subject getSubject() {
+		
+		Subject subject=new Subject();
+		subject.setSubId(10);
+		subject.setSubName("java");
+		return subject;
+	}
 
 }
